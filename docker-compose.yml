@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  proxy:
+    build:
+      context: .
+    environment:
+      - NGINX_HOST=klausurarchiv.fachschaft-wiwi.ms
+      - NGINX_PROXY=http://klausurarchiv.fachschaft-wiwi.ms
+    ports:
+      - 80:80
