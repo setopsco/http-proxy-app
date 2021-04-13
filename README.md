@@ -20,13 +20,13 @@ This is an app for proxying HTTP requests to an external deployment. It's useful
 
 The app is configured with environment variables:
 
-* `NGINX_HOST`
-  * Example: `test.schnellofant.de`
-  * The virtual host (domain) the proxy app serves its content on (i.e., project domain).
-
 * `NGINX_PROXY`
   * Example: `https://zweitag.aws.zweitagapps.de`
   * The existing deployment from which to serve content (i.e., the old application server).
+
+* `PORT`
+  * Example: `80`
+  * The port on which the proxy server will listen.
 
 ## References
 
