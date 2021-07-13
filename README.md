@@ -21,7 +21,7 @@ This is an app for proxying HTTP requests to an external deployment. It's useful
 The app is configured with environment variables:
 
 * `NGINX_PROXY`
-  * Example: `https://zweitag.aws.zweitagapps.de`
+  * Example: `https://mydomain.com`
   * The existing deployment from which to serve content (i.e., the old application server).
 
 * `PORT`
@@ -31,4 +31,3 @@ The app is configured with environment variables:
 ## References
 
 * [SetOps docs](https://zweitag.setops.net/docs)
-* [App Migration Guide](https://docs.google.com/document/d/1XYAbtBKQEuyRj4yVqO8_Ek1O5MECxkayvMAB4X14mKU/edit?usp=sharing)
